@@ -15,4 +15,4 @@ jobs:
           spec: 'clock.py'
           requirements: 'requirements.txt'
           upload_exe_with_name: 'clock'
-          options: --onefile, --name "clock", --windowed, --add-data ".\\assets\\*;.\\assets\\*"
+          options: --onefile, --name "clock", --windowed, --add-data "./assets/icons/*;./assets/icons/"
