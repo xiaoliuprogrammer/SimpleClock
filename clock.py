@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         
-        icon = QIcon("./icon/icon.ico")
+        icon = QIcon("./assets/icon/icon.ico")
         MainWindow.setWindowIcon(icon)
         
         MainWindow.resize(600, 200)
